@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RotateArrayByK {
 
-    public static void main(int size, int[] arr, int k){
+    public static void rotateArray(int size, int[] arr, int k){
         k = k % size; // Important to avoid overflow
         int[] result = new int[size];
         int j = 0;
@@ -42,3 +42,4 @@ public class RotateArrayByK {
 
     }
 }
+
